@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/image/nabil2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+
+.card {
+    background-color: black;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+    margin-bottom: 25px;
+    color: gray;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: gray;
+    color: black;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+.profile h2 {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.biodata {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.biodata p {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 12px 5px;
+    border-bottom: 1px solid #ddd;
+
+    color: #555;
+}
+
+.biodata span {
+    font-weight: bold;
+}
+
+.biodata strong {
+    color: gray;
+}
+
+button {
+    border: none;
+    padding: 12px 20px;
+
+    background-color: gray;
+    color: black;
+
+    border-radius: 8px;
+    cursor: pointer;
+
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: gray;
+    transform: scale(1.05);
+}
+
+#pesan {
+    margin-top: 20px;
+    color: gray;
+    font-weight: bold;
+}
